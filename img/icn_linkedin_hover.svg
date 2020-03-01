@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>icn_linkedin_hover</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icn_linkedin_hover" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy" x="0" y="0" width="24" height="24"></rect>
+        <g id="Group-Copy" transform="translate(2.000000, 2.000000)" fill="#0277B5" fill-rule="nonzero">
+            <rect id="Rectangle" x="0" y="6.30769231" width="4.46153846" height="13.6923077"></rect>
+            <path d="M16.669035,6.46826573 C16.6217343,6.45332867 16.5769231,6.43714685 16.5271329,6.42345455 C16.4673846,6.40976224 16.4076364,6.39855944 16.3466434,6.3886014 C16.1101399,6.3413007 15.8512308,6.30769231 15.5475105,6.30769231 C12.950951,6.30769231 11.3041399,8.19598601 10.7614266,8.92541259 L10.7614266,6.30769231 L6.30769231,6.30769231 L6.30769231,20 L10.7614266,20 L10.7614266,12.5314685 C10.7614266,12.5314685 14.1272448,7.84372028 15.5475105,11.2867133 C15.5475105,14.360014 15.5475105,20 15.5475105,20 L20,20 L20,10.7601818 C20,8.6913986 18.5822238,6.96741259 16.669035,6.46826573 Z" id="Path"></path>
+            <circle id="Oval" cx="2.15384615" cy="2.15384615" r="2.15384615"></circle>
+        </g>
+    </g>
+</svg>

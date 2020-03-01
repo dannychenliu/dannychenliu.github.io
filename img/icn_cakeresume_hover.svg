@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>icn_cakeresume_hover</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icn_cakeresume_hover" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy-3" x="0" y="0" width="24" height="24"></rect>
+        <g id="Group-3-Copy" transform="translate(3.000000, 5.000000)">
+            <rect id="Rectangle" fill="#13AB67" x="0" y="0" width="18" height="18" rx="2"></rect>
+            <path d="M12.0186262,6.46545511 C11.3293379,5.64868523 10.3231292,5.24030029 9,5.24030029 C7.01530621,5.24030029 5.50276718,6.92266433 5.50276718,8.99625934 C5.50276718,11.0698543 7.2995203,12.6966635 9,12.6966635 C10.1336531,12.6966635 11.1405167,12.3325551 12.0205908,11.6043384 L13.7044829,13.3621217 C12.6788091,14.5982275 11.1106482,15.2162803 9,15.2162803 C5.83402776,15.2162803 3.12973233,12.198366 3.12973233,9 C3.12973233,5.80163403 5.83588323,2.77623835 9,2.77623835 C11.1094112,2.77623835 12.6775722,3.43107314 13.7044829,4.74074272 L12.0186262,6.46545511 Z" id="Path-2" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
