@@ -1,540 +1,624 @@
-@import url("reset.css");
-body {
-    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
-    background-color: #fff;
-}
-
-.headerWrap {
-    width: 100%;
-    height: 50px;
-    background-color: #fff;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
-    position: sticky;
-    top: 0;
-    z-index: 99999;
-}
-
-.header h3,
-a {
-    display: block;
-    float: left;
-    font-size: 24px;
-    color: #21222E;
-    font-weight: bold;
-    line-height: 50px;
-    text-indent: 15px;
-    text-decoration: none;
-}
-
-.header ul {
-    display: none;
-    width: 100%;
-    height: 100vh;
-    list-style: none;
-    background-color: #fff;
-}
-
-.header li {
-    width: 100%;
-    text-align: center;
-    padding: 50px 0px;
-}
-
-.header li a {
-    width: 100%;
-    font-size: 28px;
-    text-decoration: none;
-    color: #21222E;
-}
-
-.header li a:hover {
-    color: red;
-    border-bottom: 1px solid #ccc;
-}
-
-.more {
-    display: flex;
-    float: right;
-    margin: 10px 15px;
-    cursor: pointer;
-}
-
-.banner {
-    width: 100%;
-    height: 350px;
-    background-color: #fafafa;
-    position: relative;
-    z-index: 8888;
-}
-
-h1 {
-    font-size: 32px;
-    color: salmon;
-    padding: 50px 15px;
-}
-
-p {
-    font-size: 14px;
-    color: #000;
-    padding: 15px;
-    line-height: 30px;
-}
-
-.workLink {
-    padding-left: 5px;
-}
-
-ul {
-    display: block;
-    list-style: none;
-}
-
-li {
-    float: left;
-    padding: 10px;
-}
-
-li a.linkedin {
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-image: url(/img/icn_linkedin_default.svg);
-}
-
-li a.behance {
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-image: url(/img/icn_behance_default.svg);
-}
-
-li a.cakeresume {
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-image: url(/img/icn_cakeresume_dafault.svg);
-}
-
-li a.linkedin:hover {
-    background-image: url(/img/icn_linkedin_hover.svg);
-}
-
-li a.behance:hover {
-    background-image: url(/img/icn_behance_hover.svg);
-}
-
-li a.cakeresume:hover {
-    background-image: url(/img/icn_cakeresume_hover.svg);
-}
-
-
-/* casestudy */
-
-#case {
-    width: 100%;
-    background-color: #FFF9F9;
-    padding: 50px 0;
-}
-
-.app {
-    width: 90%;
-    margin: 0 auto;
-    background-color: #fff;
-    box-shadow: 0 4px 20px -3px rgba(0, 0, 0, 0.2);
-    display: block;
-}
-
-.app .info {
-    margin: auto 0;
-    padding: 50px 40px;
-}
-
-.appPic {
-    display: block;
-}
-
-
-/* Premium */
-
-.premium {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 50px;
-    background-color: #fff;
-    box-shadow: 0 4px 20px -3px rgba(0, 0, 0, 0.2);
-    display: block;
-}
-
-.premium .info {
-    margin: auto 0;
-    padding: 50px 40px;
-}
-
-.premiumPic {
-    display: block;
-}
-
-
-/* webcase */
-
-.webStore {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 50px;
-    background-color: #fff;
-    box-shadow: 0 4px 20px -3px rgba(0, 0, 0, 0.2);
-    display: block;
-}
-
-.webStore .info {
-    margin: auto 0;
-    padding: 50px 40px;
-}
-
-.webPic {
-    display: block;
-}
-
-
-/* case study text */
-
-h2 {
-    font-size: 32px;
-    font-weight: bolder;
-    padding-bottom: 40px;
-}
-
-p {
-    font-size: 14px;
-    line-height: 20px;
-    padding-bottom: 50px;
-}
-
-a.button {
-    text-decoration: none;
-    padding: 15px 40px;
-    background-color: #000;
-    color: #fff;
-    border-radius: 10px;
-}
-
-#brief {
-    background-color: #ccc;
-    padding: 50px;
-}
-
-#beief h3 {
-    font-size: 14px;
-    padding-bottom: 0px;
-}
-
-
-/* footer is here */
-
-footer {
-    background-color: #ddd;
-    padding: 40px;
-}
-
-footer ul {
-    text-align: center;
-    width: 132px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer h4 {
-    padding-top: 40px;
-    clear: both;
-    font-size: 16px;
-    color: #ccc;
-    text-align: center;
-}
-
-
-/* pad view */
-
-@media only screen and (min-width:768px) {
-    .banner h1 {
+    @import url("reset.css");
+    @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Raleway:500,600,700,900,bold,black');
+    body {
+        font-family: 'Raleway', Arial, Helvetica, "微軟正黑體", sans-serif;
+        background-color: #fff;
+    }
+    
+    .headerWrap {
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0 1.9px 4.1px rgba(0, 0, 0, 0.045), 0 15px 33px rgba(0, 0, 0, 0.09);
+        position: sticky;
+        top: 0;
+        z-index: 99999;
+    }
+    
+    .header {
+        background-color: #fff;
+        padding-left: 25px;
+        padding-right: 25px;
+        z-index: 88888;
+    }
+    
+    .logoWrap img {
+        float: left;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+    
+    .logo {
+        display: none;
+    }
+    
+    .header ul.open {
+        display: inline-block;
+        height: calc(100vh - 70px);
+    }
+    
+    .header ul {
+        /* ul closed */
+        clear: both;
+        display: hidden;
+        height: 0px;
+        transition: .35s linear;
+        z-index: 77777;
+    }
+    
+    .header li {
+        width: calc(100vw - 50px);
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    .header li a {
+        text-decoration: none;
+        line-height: 70px;
+        color: #838383;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .header li :hover {
+        color: #00E386;
+    }
+    
+    .more {
+        display: flex;
+        height: 36px;
+        width: 40px;
+        transform: translate(50%, 50%);
+        background-color: #fff;
+        float: right;
+        margin-right: 25px;
+        cursor: pointer;
+    }
+    
+    .hamburger {
+        width: 40px;
+        height: 4px;
+        background-color: #838383;
+        transform: translate(0%, 0%);
+        position: absolute;
+        top: 50%;
+        transition: .35s;
+    }
+    
+    .hamburgerTop {
+        top: 10%;
+    }
+    
+    .hamburgerBottom {
+        top: 90%;
+    }
+    
+    .close.hamburgerTop {
+        transform: rotate(45deg);
+        top: 50%;
+    }
+    
+    .close.hamburgerBottom {
+        transform: rotate(-45deg);
+        top: 50%;
+    }
+    
+    .close.hamburgerMid {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity .35s linear;
+    }
+    /* mobile font size  font size font size font size */
+    
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #212121;
+    }
+    
+    h2 {
+        font-size: 36px;
+        font-weight: bolder;
+        color: #212121;
+    }
+    
+    h3 {
         font-size: 32px;
-        color: salmon;
-        padding: 50px 15px;
-        text-align: center;
+        font-weight: bolder;
+        color: #212121;
     }
-    .banner p {
+    
+    h4 {
+        font-size: 24px;
+        font-weight: bolder;
+        color: #212121;
+    }
+    
+    h6 {
         font-size: 14px;
-        color: #000;
-        padding: 15px;
-        line-height: 30px;
+        font-weight: 400;
+        color: #212121;
+    }
+    
+    a {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #212121;
+    }
+    
+    a:hover {
+        color: #00E386;
+    }
+    
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #838383;
+    }
+    /*  banner   banner   banner   banner   banner   banner   banner */
+    
+    .banner {
+        background-color: #fff;
+        padding: 50px 45px;
+    }
+    
+    .banner h1 {
+        padding-bottom: 56px;
+    }
+    
+    .banner .decorLine {
+        width: 230px;
+        height: 3px;
+        background-color: #00FF97;
+        position: relative;
+        top: -35px;
+        left: -25px;
+    }
+    
+    .banner p {
+        padding-bottom: 30px;
+    }
+    
+    .banner span {
+        color: #00E386;
+        border-bottom: 1px solid #00E386;
+    }
+    /* work link   work link   work link   work link */
+    
+    .workLink ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    .workLink li {
+        padding: 15px 10px;
+    }
+    
+    .workLink li a.linkedin {
+        display: flex;
+        width: 24px;
+        height: 24px;
+        background-image: url(/img/icn_linkedin_default.svg);
+    }
+    
+    .workLink li a.behance {
+        display: flex;
+        width: 24px;
+        height: 24px;
+        background-image: url(/img/icn_behance_default.svg);
+    }
+    
+    .workLink li a.cakeresume {
+        display: flex;
+        width: 24px;
+        height: 24px;
+        background-image: url(/img/icn_cakeresume_dafault.svg);
+    }
+    
+    .workLink li a.linkedin:hover {
+        background-image: url(/img/icn_linkedin_hover.svg);
+    }
+    
+    .workLink li a.behance:hover {
+        background-image: url(/img/icn_behance_hover.svg);
+    }
+    
+    .workLink li a.cakeresume:hover {
+        background-image: url(/img/icn_cakeresume_hover.svg);
+    }
+    /* projects    projects  projects  projects  projects  projects  */
+    
+    .caseWrap {
+        background-color: #fff;
+        padding: 50px 25px;
+    }
+    
+    .caseWrap h2 {
+        padding-bottom: 60px;
+        padding-left: 20px;
+    }
+    
+    .caseWrap .decorLine {
+        width: 130px;
+        height: 3px;
+        background-color: #00FF97;
+        position: relative;
+        top: -45px;
+        left: -5px;
+    }
+    
+    .app,
+    .premium,
+    .webStore {
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 1.9px 4.1px rgba(0, 0, 0, 0.045), 0 15px 33px rgba(0, 0, 0, 0.09);
+        margin-bottom: 10%;
+    }
+    
+    .caseWrap img {
+        border-radius: 20px;
+        box-shadow: 0 1.9px 4.1px rgba(0, 0, 0, 0.045), 0 15px 33px rgba(0, 0, 0, 0.09);
+    }
+    
+    .caseWrap .info {
+        padding: 50px 25px;
+    }
+    
+    .caseWrap .info h3 {
+        padding-bottom: 30px;
+    }
+    
+    .caseWrap .info p {
+        padding-bottom: 30px;
+    }
+    
+    .caseWrap .info a {
+        text-decoration: none;
+        display: flex;
+    }
+    
+    .caseWrap .button img {
+        box-shadow: none;
+    }
+    /* more   more   more   more   more   more   more    */
+    
+    .brief {
+        background-color: #fff;
+        padding: 50px 45px;
+    }
+    
+    .brief h2 {
+        padding-bottom: 50px;
+    }
+    
+    .brief p {
+        padding-bottom: 50px;
+    }
+    
+    .brief a {
+        font-size: 400;
+        color: #00E386;
+        padding-bottom: 50px;
+    }
+    
+    .brief .decorLine {
+        width: 90px;
+        height: 3px;
+        background-color: #00FF97;
+        position: relative;
+        top: -35px;
+        left: -25px;
+    }
+    /* footer    footer    footer    footer    footer    footer     */
+    
+    footer {
+        background-color: #fff;
+        padding: 30px 0px;
+        box-shadow: 0 -1.9px 4.1px rgba(0, 0, 0, 0.045), 0 -15px 33px rgba(0, 0, 0, 0.09);
+    }
+    
+    footer .workLink h6 {
         text-align: center;
     }
-    ul {
+    
+    footer ul {
         text-align: center;
         width: 132px;
         margin-left: auto;
         margin-right: auto;
-        display: block;
-        list-style: none;
     }
-    /* ipad casestudy */
-    .app {
-        display: flex;
+    /* ipad    ipad    ipad    ipad    ipad    ipad    ipad     */
+    
+    @media only screen and (min-width:768px) {
+        .logo {
+            display: flex;
+            float: left;
+        }
+        .logoMobile {
+            display: none;
+            float: none;
+        }
+        /*  menu menu menu menu menu menu menu  */
+        .header ul {
+            height: 70px;
+            clear: none;
+            display: flex;
+            float: right;
+        }
+        .header li {
+            width: auto;
+            display: flex;
+            float: left;
+            text-align: none;
+            padding-top: 40px;
+            padding-left: 30px;
+            line-height: 70px;
+        }
+        .header li a {
+            text-decoration: none;
+            line-height: 0px;
+            color: #838383;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .header li :hover {
+            color: #00E386;
+        }
+        .more {
+            display: none;
+        }
+        /* ipadprojects    ipadprojects    ipadprojects    ipadprojects    */
+        .caseWrap {
+            background-color: none;
+            padding: 50px 45px 0px 50px;
+        }
+        .caseWrap h2 {
+            padding-left: 0px;
+        }
+        .caseWrap .decorLine {
+            left: -25px;
+        }
+        .app,
+        .premium,
+        .webStore {
+            box-shadow: none;
+            margin-bottom: 0px;
+            height: 35em;
+        }
+        .caseWrap img.appPic,
+        .caseWrap img.webPic {
+            width: 80%;
+            float: right;
+            box-shadow: 0 1.9px 4.1px rgba(0, 0, 0, 0.045), 0 15px 33px rgba(0, 0, 0, 0.09);
+        }
+        .caseWrap img.webPic {
+            position: relative;
+            top: -10em;
+        }
+        .caseWrap img.premiumPic {
+            width: 80%;
+            float: left;
+            box-shadow: 0 1.9px 4.1px rgba(0, 0, 0, 0.045), 0 15px 33px rgba(0, 0, 0, 0.09);
+        }
+        .caseWrap .info {
+            clear: both;
+            background-color: #fff;
+            border-radius: 20px;
+            width: 30%;
+            height: auto;
+            box-shadow: 0 1.9px 4.1px rgba(0, 0, 0, 0.045), 0 15px 33px rgba(0, 0, 0, 0.09);
+            padding: 50px 25px;
+            position: relative;
+            top: -250px;
+            z-index: 11111;
+        }
+        .caseWrap .premium .info {
+            float: right;
+            position: relative;
+        }
+        .caseWrap .webStore .info {
+            top: -400px;
+        }
+        .caseWrap .info h3 {
+            padding-bottom: 30px;
+        }
+        .caseWrap .info p {
+            padding-bottom: 30px;
+        }
+        .caseWrap .info a {
+            text-decoration: none;
+            display: flex;
+        }
+        .caseWrap .button img {
+            box-shadow: none;
+        }
     }
-    .app .info {
-        width: 35%;
-        float: left;
-        padding: 8% 8%;
+    
+    @media only screen and (min-width:1000px) {
+        .header,
+        .banner,
+        .caseWrap,
+        .passion,
+        .brief {
+            width: 960px;
+            margin: 0 auto;
+        }
     }
-    .appPic {
-        width: 49%;
-        float: right;
+    /* this is about
+    this is about
+    this is about
+    this is about */
+    
+    .banner h2 {
+        padding-bottom: 50px;
     }
-    .premium {
-        display: block;
+    
+    .passion {
+        background-color: #fff;
+        padding: 50px 45px;
+    }
+    
+    .passion h2 {
+        padding-bottom: 50px;
+    }
+    
+    .passion p {
+        padding-bottom: 50px;
+    }
+    
+    .passion .decorLine {
+        width: 120px;
+        height: 3px;
+        background-color: #00FF97;
+        position: relative;
+        top: -35px;
+        left: -25px;
+    }
+    
+    .gallery {
+        column-count: 1;
+        column-gap: 0;
+    }
+    
+    .gallery img {
+        width: 100%;
+        box-sizing: border-box;
+        box-sizing: border-box;
+        break-inside: avoid;
+        padding: 10px;
+        counter-increment: item-counter;
+    }
+    
+    @media screen and (min-width: 460px) {
+        .gallery {
+            column-count: 2;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .gallery {
+            column-count: 3;
+        }
+    }
+    /* resume resume resume resume resume resume */
+    
+    .resWrap {
+        padding: 50px 45px;
         overflow: hidden;
+        box-shadow: 0 -1.9px 4.1px rgba(0, 0, 0, 0.045), 0 -15px 33px rgba(0, 0, 0, 0.09);
     }
-    .premium .info {
-        margin-top: auto;
-        width: 35%;
-        float: right;
-        padding: 10% 7%;
+    
+    .resWrap h1,
+    .resWrap h4 {
+        padding-bottom: 20px;
     }
-    .premiumPic {
-        width: 49%;
-        float: left;
+    
+    .resWrap h3 {
+        padding-bottom: 10px;
     }
-    .webStore {
-        display: flex;
+    
+    .resWrap h3.titile {
+        padding-bottom: 10px;
+        color: #00E386;
     }
-    .webStore .info {
-        width: 35%;
-        float: left;
-        padding: 8% 8%;
+    
+    .resWrap .resRight h3.titile {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
-    .webPic {
-        width: 49%;
-        float: right;
+    
+    .resWrap h4 {
+        line-height: 1.5;
     }
-}
-
-
-/* desktop view */
-
-@media only screen and (min-width:1000px) {
-    .header {
-        width: 960px;
-        margin: 0 auto;
+    
+    .skills h4 {
+        font-size: 20px;
+        padding-bottom: 5px;
     }
-    .header ul {
-        height: auto;
-        width: 230px;
-        display: flex;
-        float: right;
-        list-style: none;
+    
+    .resWrap h5 {
+        padding-bottom: 5px;
+        padding-top: 20px;
+        color: #838383;
     }
-    .header li {
-        float: left;
-        margin-right: 10px;
-        padding: 0px 0px;
+    
+    .resWrap p {
+        padding-bottom: 30px;
     }
-    .header li a {
-        font-size: 16px;
-        text-decoration: none;
-        color: #21222E;
+    
+    .resRight p {
+        padding-bottom: 10px;
     }
-    .header li a:hover {
-        color: #21222E;
-        border-bottom: 1px solid #ccc;
+    
+    .resWrap li {
+        margin-left: 15px;
+        padding-bottom: 10px;
+        line-height: 1.5;
+        color: #838383;
     }
-    .more {
-        display: none;
+    
+    .resWrap ul li::before {
+        content: "\2022";
+        /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: #00E386;
+        /* Change the color */
+        font-weight: 900;
+        /* If you want it to be bold */
+        display: inline-block;
+        /* Needed to add space between the bullet and the text */
+        width: 1em;
+        /* Also needed for space (tweak if needed) */
+        margin-left: -1em;
+        /* Also needed for space (tweak if needed) */
     }
-    .app,
-    .premium,
-    .webStore {
-        width: 960px;
+    /* resume ipad resume ipad resume ipad resume ipad */
+    
+    @media screen and (min-width: 768px) {
+        .resTop {
+            width: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+            padding-bottom: 50px;
+        }
+        .name {
+            width: 60%;
+            float: left;
+        }
+        .resContact {
+            width: 40%;
+            float: left;
+            padding-top: 45px;
+        }
+        .resBottom {
+            width: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .resLeft {
+            width: 55%;
+            float: left;
+            margin-right: 30px;
+        }
+        .resRight {
+            width: 40%;
+            float: right;
+        }
+        footer {
+            clear: both;
+        }
+        .skills {
+            width: 100%;
+            height: auto;
+        }
+        .skillsLeft {
+            width: 55%;
+            float: left;
+            margin-right: 20px;
+        }
+        .other {
+            clear: both;
+        }
     }
-}
-
-
-/* work page */
-
-.workInfo {
-    padding-left: 15px;
-    padding: 30px 15px;
-}
-
-.workInfo h2 {
-    font-size: 50px;
-    color: #ddd;
-}
-
-@media only screen and (min-width:768px) {
-    .workInfo {
-        padding-left: 5%;
-    }
-}
-
-@media only screen and (min-width:1000px) {
-    .workInfo {
-        width: 960px;
-        margin: 0 auto;
-        padding-left: 5%;
-    }
-}
-
-
-/* resume   herherherherherherhe        */
-
-.resumeBanner {
-    width: 100%;
-    height: 300px;
-}
-
-.resumeBanner h2 {
-    font-size: 50px;
-    color: #ddd;
-    padding: 30px 15px;
-}
-
-#resWrap {
-    width: 100%;
-    border-top: 1px solid #ccc;
-    overflow: hidden;
-}
-
-#resWrap h1 {
-    font-size: 40px;
-    color: #21222E;
-    padding: 20px 0px
-}
-
-#resWrap h3 {
-    font-size: 28px;
-    color: #21222E;
-}
-
-#resWrap p {
-    font-size: 14px;
-    color: #838383;
-    padding-bottom: 0px;
-}
-
-#resWrap ul {
-    list-style: none;
-    /* Remove default bullets */
-    padding-left: 20px;
-    margin-left: 0px;
-}
-
-#resWrap ul li::before {
-    content: "\2022";
-    /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #FD737A;
-    /* Change the color */
-    font-weight: bolder;
-    /* If you want it to be bold */
-    display: inline-block;
-    /* Needed to add space between the bullet and the text */
-    width: 1em;
-    /* Also needed for space (tweak if needed) */
-    margin-left: -1em;
-    /* Also needed for space (tweak if needed) */
-}
-
-#resWrap li {
-    display: block;
-    font-size: 14px;
-    line-height: 24px;
-    color: #838383;
-    float: none;
-    text-align: left;
-}
-
-
-/* resume top */
-
-#resTop {
-    width: 100%;
-    padding: 50px 40px;
-    background-color: #fff;
-    overflow: hidden;
-}
-
-#resTop .name {
-    display: block;
-    width: 55%;
-    float: left;
-}
-
-#resTop .resContact {
-    display: inline-block;
-    width: 40%;
-    float: right;
-    margin-top: 60px;
-}
-
-#resBottom {
-    background-color: red;
-}
-
-.resLeft {
-    display: block;
-    width: 60%;
-    float: left;
-    padding: 20px 0px;
-    background-color: #fff;
-}
-
-.resRight {
-    display: block;
-    width: 40%;
-    float: right;
-    background-color: #fff;
-}
-
-.brief {
-    padding: 20px 0px;
-}
-
-.titile {
-    padding: 10px 15px;
-}
-
-.caption {
-    padding: 20px 0px 2px 15px;
-}
-
-.job {
-    padding: 3px 15px;
-}
-
-.company {
-    padding: 10px 15px;
-}
-
-.education {
-    padding-top: 50px;
-}
-
-
-/*   about  about  about  about */
-
-.aboutWrap {
-    width: 100%;
-    height: 100%;
-    background-color: #ccc;
-}
-
-.about {
-    display: block;
-    float: left;
-}
-
-.avatar {
-    float: right;
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    border: 5px solid brown;
-}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="42px" viewBox="0 0 196 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>icn_logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icn_logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="196" height="42"></rect>
+        <text id="Danny" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#21222E">
+            <tspan x="-1.864" y="34">Danny</tspan>
+        </text>
+        <text id="Liu" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#21222E">
+            <tspan x="143.274" y="34">Liu</tspan>
+        </text>
+        <circle id="Oval-Copy-2" fill="#00FF97" cx="125" cy="22.5" r="5"></circle>
+    </g>
+</svg>

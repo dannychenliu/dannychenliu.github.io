@@ -4,28 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Danny Liu's Portfolio</title>
+    <link rel="icon" href="/img/icn_logo_mobile.svg" type="image/ico">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="headerWrap">
         <div class="header">
-            <h3>
-                <a href="index"> Danny Liu</a>
-            </h3>
-            <img class="more" src="/img/icn_more.svg" alt="">
+
+            <div class="logoWrap">
+                <img class="logoMobile" src="/img/icn_logo_mobile.svg" alt="Danny Liu">
+                <img class="logo" src="/img/icn_logo.svg" alt="Danny Liu">
+            </div>
+
+            <div class="more">
+                <div class="hamburger , hamburgerTop"></div>
+                <div class="hamburger , hamburgerMid"></div>
+                <div class="hamburger , hamburgerBottom"></div>
+            </div>
 
             <ul>
                 <li><a href="work">Work</a></li>
                 <li><a href="about">About</a></li>
                 <li><a href="resume">Resume</a></li>
             </ul>
-
         </div>
     </div>
 
-    <div class="resumeBanner">
+
+
+    <div class="banner">
         <h2>
             Resume
         </h2>
@@ -36,21 +46,21 @@
         <div class="workLink">
             <ul>
                 <li>
-                    <a href="google.com" class="linkedin"> </a>
+                    <a href="https://www.linkedin.com/in/%E5%BD%A5%E8%BE%B0-%E5%8A%89-020977158/" class="linkedin"> </a>
                 </li>
                 <li>
-                    <a href="google.com" class="behance"> </a>
+                    <a href="https://www.behance.net/DannyLiu0202" class="behance"> </a>
                 </li>
                 <li>
-                    <a href="google.com" class="cakeresume"> </a>
+                    <a href="https://www.cakeresume.com/dashboard?ref=navs_dashboard" class="cakeresume"> </a>
                 </li>
             </ul>
         </div>
     </div>
 
     <!--resume-->
-    <div id="resWrap">
-        <div id="resTop">
+    <div class="resWrap">
+        <div class="resTop">
             <div class="name">
                 <h1>
                     劉彥辰 <span>Danny Liu</span>
@@ -63,13 +73,12 @@
             <div class="resContact">
                 <p>
                     0915 836 254
-                </p>
-                <p>whasssup0202 @gmail</p>
+                    <br> whasssup0202 @gmail</p>
             </div>
         </div>
         <div id="resBottom">
             <div class="resLeft">
-                <div class="brief">
+                <div class="intro">
                     <p>
                         我叫劉彥辰，我是一位UI/UX設計師，大學時主修工業設計，並對設計方法與互動設計非常有興趣，畢業之後便進入Lollipop Baby Camera 負責APP與網頁的UI/UX設計，與工程師合作打造出以使用者為中心兼具商業價值的產品。
                     </p>
@@ -185,10 +194,11 @@
 
                 <!---skills-->
                 <div class="skills">
+                    <h3 class="titile">
+                        擅長軟體及技能
+                    </h3>
                     <div class="skillsLeft">
-                        <h3 class="titile">
-                            擅長軟體及技能
-                        </h3>
+
                         <h3 class="job">
                             技能
                         </h3>
@@ -266,22 +276,25 @@
     <footer>
         <div class="workLink">
             <ul>
-                <li class="linkedin">
-                    <a href="google.com" class="linkedin"></a>
+                <li>
+                    <a href="https://www.linkedin.com/in/%E5%BD%A5%E8%BE%B0-%E5%8A%89-020977158/" class="linkedin"> </a>
                 </li>
-                <li class="behance">
-                    <a href="google.com" class="behance"></a>
+                <li>
+                    <a href="https://www.behance.net/DannyLiu0202" class="behance"> </a>
                 </li>
-                <li class="cakeresume">
-                    <a href="google.com" class="cakeresume"></a>
+                <li>
+                    <a href="https://www.cakeresume.com/dashboard?ref=navs_dashboard" class="cakeresume"> </a>
                 </li>
             </ul>
-            <h4>
+            <h6>
                 &copy;Danny Liu
-            </h4>
+            </h6>
         </div>
 
     </footer>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/web.js"></script>
 </body>
 
 </html>
