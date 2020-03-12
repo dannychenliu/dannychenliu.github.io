@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="2880px" height="725px" viewBox="0 0 2880 725" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="2880px" height="427px" viewBox="0 0 2880 427" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
     <title>bg_designBottom</title>
     <desc>Created with Sketch.</desc>
     <g id="bg_designBottom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#FFFFFF" x="0" y="0" width="2880" height="725"></rect>
-        <path d="M-258,-1130.52935 L282.369236,-1383.4856 C411.06889,-1443.73215 555.056663,-1463.38217 695.193193,-1439.82372 L2880,-1072.53428 L2880,-1072.53428 L2880,725 L-231,725 L-258,-1130.52935 Z" id="Path-13-Copy" fill="#F5F7FA" transform="translate(1311.000000, -375.500000) scale(-1, -1) translate(-1311.000000, 375.500000) "></path>
+        <rect fill="#FFFFFF" x="0" y="0" width="2880" height="427"></rect>
+        <path d="M-258,-1428.52935 L282.369236,-1681.4856 C411.06889,-1741.73215 555.056663,-1761.38217 695.193193,-1737.82372 L2880,-1370.53428 L2880,-1370.53428 L2880,427 L-231,427 L-258,-1428.52935 Z" id="Path-13-Copy" fill="#F5F7FA" transform="translate(1311.000000, -673.500000) scale(-1, -1) translate(-1311.000000, 673.500000) "></path>
     </g>
 </svg>

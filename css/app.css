@@ -1,5 +1,5 @@
 .appWrap {
-    background-color: #ccc;
+    background-color: #fff;
 }
 
 
@@ -61,157 +61,6 @@
 
 .appMyRole_Right {
     margin-left: 40px;
-}
-
-
-/* 市場描述  */
-
-.marketText {
-    background-color: #fff;
-    padding: 50px 25px 0px 25px;
-    text-align: center;
-}
-
-.marketGraph {
-    background-color: #fff;
-    overflow: hidden;
-    padding-top: 40px;
-}
-
-.marketGraph img {
-    display: block;
-    padding-top: 20px;
-}
-
-.marketGraph ul {
-    padding: 0px 6% 50px 4%;
-}
-
-.marketGraph li {
-    width: 100%;
-    float: left;
-    margin: 0 1% 40px 1%;
-    box-shadow: 0 2.6px 4.1px rgba(0, 0, 0, 0.035), 0 21px 33px rgba(0, 0, 0, 0.07);
-    border-radius: 20px;
-}
-
-.marketGraph li a {
-    width: 30%;
-    display: block;
-}
-
-.marketGraph li p {
-    padding: 20px 30px 40px 20px;
-    text-align: center;
-}
-
-
-/* persona */
-
-.appPersona {
-    background-color: #fff;
-    padding: 40px 25px;
-}
-
-.appPersona_right h5 {
-    text-indent: 50px;
-    background-image: url(/appImg/icn_arrowsquare.png);
-    background-repeat: no-repeat;
-    background-position: 0 -6px;
-    background-size: contain;
-    position: relative;
-}
-
-.appPersona_right p {
-    padding-left: 80px;
-    background-image: url(/appImg/icn_dot.svg);
-    background-repeat: no-repeat;
-    background-size: 10px;
-    background-position: 55px 8px;
-}
-
-.appPersona_right_box {
-    padding-bottom: 40px;
-}
-
-
-/* product principle */
-
-.appPrinciple {
-    background-color: #fff;
-    padding: 50px 25px;
-}
-
-.appPrinciple_box {
-    width: 70%;
-    padding: 40px 10% 30px 10%;
-    border-radius: 20px;
-    margin: 0 auto;
-    text-align: center;
-    box-shadow: 0 0.9px 3.5px rgba(0, 0, 0, 0.035), 0 7px 28px rgba(0, 0, 0, 0.07);
-}
-
-.appPrinciple_box p {
-    font-size: 30px;
-    letter-spacing: .2em;
-}
-
-
-/* pyrimid */
-
-.appPyrimid {
-    background-color: #fff;
-    padding: 50px 25px;
-}
-
-.appPyrimid img {
-    width: 90vw;
-    margin: 0 auto;
-    padding-top: 50px;
-}
-
-
-/* challegne */
-
-.appChallenge {
-    background-color: #f5f5f5;
-    padding: 50px 25px;
-}
-
-.appChallenge_top {
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.appChallenge_bottom {
-    width: 100%;
-    display: block;
-    text-align: center;
-}
-
-.appChallenge_bottom p {
-    font-size: 14px;
-    text-align: justify;
-    text-align-last: center;
-}
-
-.appChallenge_bottom .appCha {
-    padding: 20px 7%;
-}
-
-
-/* iaiaiaiaiaiaiaiaiaiaiaiaiiaia */
-
-.appIa {
-    background-color: #fff;
-}
-
-.appIa_text {
-    padding: 50px 25px 10px 25px;
-}
-
-.appIa img {
-    max-width: 100vw;
 }
 
 
@@ -290,10 +139,10 @@
 }
 
 .appSystem_bottomColor {
-    height: 250px;
+    height: 15vw;
     background-image: url(/appImg/bg_designBottom.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
@@ -400,6 +249,124 @@
 }
 
 
+/* p2t p2tp p2tp p2t */
+
+.appLiveview_p2t {
+    background-color: #fff;
+    padding: 50px 25px;
+}
+
+.appLiveview_p2t img {
+    width: 20%;
+}
+
+.appLiveview_p2t video {
+    width: 100%;
+    display: block;
+    padding-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0.9px 3.5px rgba(0, 0, 0, 0.035), 0 7px 28px rgba(0, 0, 0, 0.07);
+}
+
+.appLiveview_p2t_text {
+    text-align: center;
+}
+
+
+/* slipslipskip skip */
+
+.appSkip {
+    background-color: #fff;
+    padding: 50px 25px;
+}
+
+.appSkip_text {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.appSkip img {
+    width: 100%;
+}
+
+
+/* music music misci */
+
+.appMusic {
+    background-color: #fff;
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.appMusic_text {
+    padding-bottom: 50px;
+}
+
+
+/* ads ads ads */
+
+.appLollipopCare {
+    background-color: #f5f5f5;
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.appLollipopCare_text {
+    padding-bottom: 50px;
+}
+
+.appLollipopCare video {
+    width: 100%;
+    display: block;
+    padding-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0.9px 3.5px rgba(0, 0, 0, 0.035), 0 7px 28px rgba(0, 0, 0, 0.07);
+}
+
+
+/* gallery gallery */
+
+.appGallery {
+    background-color: #fff;
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.appGallery img {
+    width: 100%;
+}
+
+
+/* inbox inbox */
+
+.appInbox {
+    background-color: #fff;
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.appInbox_text {
+    padding-bottom: 50px;
+}
+
+.appInbox img {
+    width: 100%;
+}
+
+
+/* other other other */
+
+.appOther {
+    padding-top: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.appOther img {
+    width: 100vw;
+}
+
+
 /*  ipad ipadipadipad ipadipad  ipadipad */
 
 @media only screen and (min-width:768px) {
@@ -418,12 +385,6 @@
     .appBanner img {
         display: block;
         margin-left: 0;
-    }
-    .marketGraph ul {
-        padding: 0px 0% 50px 4%;
-    }
-    .marketGraph li {
-        width: 30%;
     }
     /* goal */
     .appMyRole {
@@ -448,67 +409,22 @@
     .appMyRole_Right {
         float: left;
     }
-    /* market */
-    .marketText p {
-        width: 35%;
-        margin: 0 auto;
-    }
-    .marketGraph li {
-        height: 360px;
-    }
-    /* persona */
-    .appPersona {
-        display: block;
-        padding: 50px 45px;
-    }
-    .appPersona_left {
-        width: 30%;
-    }
-    .appPersona_right {
-        padding-top: 70px;
-        display: flex;
-    }
-    .appPersona_right_left {
-        padding-right: 40px;
-    }
-    /* pyrimid */
-    .appPyrimid {
-        overflow: hidden;
-        padding: 100px 45px 50px 45px;
-    }
-    .appPyrimid_text {
-        width: 40%;
-    }
-    .appPyrimid img {
-        width: 70vw;
-        float: right;
-        padding-top: 0px;
-    }
-    /* challnege */
-    .appChallenge_bottom {
-        display: flex;
-    }
-    .appIa_text {
-        padding: 0px 80px;
-        width: 33%;
-        float: right;
-        text-align: right;
-        position: relative;
-        top: 100px;
-        overflow: hidden;
-    }
     /* lgoogogogogogo */
     .appLogo_top {
         background-image: url(/appImg/bg_designTop.svg);
         background-repeat: no-repeat;
-        background-size: 100vw;
+        background-size: contain;
         background-position: center bottom;
     }
     .appLogo_top_text {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0% 25px 50px 25px;
+        text-align: center;
+    }
+    .appLogo_top_text p {
         width: 30%;
         margin: 0 auto;
-        padding: 30% 25px 50px 25px;
-        text-align: center;
     }
     /* mian mianmain */
     .appMain {
@@ -545,6 +461,97 @@
         overflow: hidden;
         padding-left: 45px;
     }
+    /* multi */
+    .appMulti p {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    /* p2t p2t p2tp p2tp2tp2tp  */
+    .appLiveview_p2t {
+        padding: 50px 45px;
+        display: flex;
+    }
+    .appLiveview_p2t img {
+        width: 20%;
+    }
+    .appLiveview_p2t video {
+        width: 35%;
+        display: block;
+        padding-top: 50px;
+        border-radius: 20px;
+        box-shadow: 0 0.9px 3.5px rgba(0, 0, 0, 0.035), 0 7px 28px rgba(0, 0, 0, 0.07);
+    }
+    .appLiveview_p2t_text {
+        width: 40%;
+        text-align: center;
+        margin: auto 10%;
+    }
+    /* skip skip skip skip skip ? */
+    .appSkip {
+        padding: 50px 45px;
+        overflow: hidden;
+    }
+    .appSkip_text {
+        width: 40%;
+        float: right;
+        text-align: left;
+        margin-top: 5%;
+    }
+    .appSkip img {
+        height: auto;
+        width: 50%;
+        margin: auto 0;
+    }
+    /* music musci */
+    .appMusic {
+        padding: 50px 45px;
+        display: flex;
+    }
+    .appMusic_text {
+        padding-bottom: 50px;
+        margin: auto 10%;
+    }
+    .appMusic img {
+        width: 40%;
+    }
+    /* ads ads ads */
+    .appLollipopCare {
+        padding: 50px 45px;
+    }
+    .appLollipopCare_text {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .appLollipopCare video {
+        width: 50%;
+        margin: 0 auto;
+    }
+    /* gallery */
+    .appGallery {
+        padding: 50px 45px;
+        overflow: hidden;
+    }
+    .appGalery_text {
+        width: 40%;
+        float: right;
+        padding-top: 13%;
+    }
+    .appGallery img {
+        width: 40%;
+    }
+    /* inbox inbxo */
+    .appInbox {
+        padding: 50px 45px;
+        display: flex;
+    }
+    .appInbox_text {
+        padding-bottom: 50px;
+        margin: auto 10%;
+    }
+    .appInbox img {
+        width: 40%;
+    }
     /* ipad end */
 }
 
@@ -552,6 +559,35 @@
 /* desktop hererhererhererh */
 
 @media only screen and (min-width:1000px) {
+    .appBanner,
+    .appDescribe_box,
+    .appType,
+    .appColor,
+    .appIcon,
+    .appLogin,
+    .appMain,
+    .appMulti,
+    .appCamera,
+    .appLiveview,
+    .appLiveview_p2t,
+    .appSkip,
+    .appMusic,
+    .appGallery,
+    .appInbox {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .appType_box {
+        background-color: #F5F7FA;
+    }
+    .appMain_box {
+        width: 100%;
+        background-color: #f5f5f5;
+    }
+    .appMulti_box {
+        width: 100%;
+        background-color: #8192A0;
+    }
     .appPersona {
         display: flex;
         padding: 50px 45px;
