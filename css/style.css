@@ -124,7 +124,7 @@
     
     h3 {
         font-size: 32px;
-        font-weight: bolder;
+        font-weight: bold;
         color: #212121;
     }
     
@@ -277,7 +277,7 @@
     
     .caseWrap .info a {
         text-decoration: none;
-        display: flex;
+        display: block;
     }
     
     .caseWrap .button img {
@@ -623,5 +623,13 @@
         }
         .other {
             clear: both;
+        }
+    }
+    /* resume dsktop */
+    
+    @media screen and (min-width: 1000px) {
+        .resWrap_box {
+            width: 960px;
+            margin: 0 auto;
         }
     }
