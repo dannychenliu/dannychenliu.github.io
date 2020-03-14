@@ -1,0 +1,644 @@
+.preWrap {
+    background-color: #fff;
+}
+
+
+/* fontsizecontrol  fontfontfontfontfontfont */
+
+.preWrap h1 {
+    font-size: 32px;
+    padding-bottom: 32px;
+}
+
+.preWrap h3 {
+    font-size: 32px;
+    padding-bottom: 32px;
+}
+
+.preWrap p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 18px;
+}
+
+.preWrap h5 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* banner banner */
+
+.preBanner {
+    padding: 50px 25px;
+    background-image: url(/premium_img/bg_hero.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top right;
+}
+
+.preBanner_logo {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.preBanner_t {
+    padding-top: 120%;
+    text-align: center;
+}
+
+.preBanner img {
+    position: relative;
+    top: 3px;
+    padding-right: 15px;
+}
+
+
+/* my role */
+
+.preRole_wrap {
+    background-color: #f5f5f5;
+}
+
+.preRole {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+
+/* care worth */
+
+.preWorth {
+    padding: 50px 25px;
+}
+
+.preWorth_box {
+    columns: 2;
+    column-gap: 0%;
+}
+
+.preWorth_box img {
+    width: 100%;
+}
+
+
+/* flow flwo flow */
+
+.preFlow_wrap {
+    background-color: #f5f5f5;
+}
+
+.preFlow {
+    padding: 50px 25px;
+}
+
+.preFlow_t {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.preFlow img {
+    width: 100%;
+}
+
+
+/* iaiaiaiaiaia */
+
+.pre_wire {
+    padding: 50px 25px 150px 25px;
+}
+
+.pre_wire img {
+    width: 100%;
+}
+
+.pre_wire_t {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* logo logo */
+
+.preLogo {
+    height: 30px;
+    background-color: #F2F5F7;
+    padding: 50px 45px;
+    text-align: center;
+}
+
+.preLogo img {
+    position: relative;
+    top: -80px;
+}
+
+
+/* mainmain */
+
+.preMain_wrap {
+    background-color: #f2f5f7;
+}
+
+.preMain {
+    text-align: center;
+    padding: 50px 45px;
+}
+
+.preMain img {
+    width: 100%;
+}
+
+
+/* detail */
+
+.preDetail {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preDetail video {
+    width: 100%;
+}
+
+
+/* /* option option */
+
+.preOption {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preOption video {
+    width: 100%;
+    display: block;
+}
+
+
+/* fast sub */
+
+.preSub {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preSub img {
+    width: 100%;
+}
+
+
+/* change sub */
+
+.preChange {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preChange img {
+    width: 100%;
+}
+
+
+/* history */
+
+.preHistory_wrap {
+    width: 100%;
+    background-image: url(/premium_img/bg_histoy.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.preHistory {
+    text-align: center;
+    padding: 50px 25px;
+}
+
+.preHistory img {
+    width: 100%;
+}
+
+.preHistory h3 {
+    color: #f5f5f5;
+}
+
+
+/* cancel sub */
+
+.preCancel1 {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preCancel1 img {
+    width: 100%;
+}
+
+
+/* cancel 2 */
+
+.preCancel2 {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preCancel2_t p {
+    padding-bottom: 80px;
+}
+
+.preCancel2 img {
+    width: 100%;
+}
+
+
+/* cancel3 */
+
+.preCancel3 {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preCancel3_t p {
+    padding-bottom: 80px;
+}
+
+.preCancel3 img {
+    width: 100%;
+    padding-top: 0;
+}
+
+
+/* cancel4 */
+
+.preCancel4 {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preCancel4 img {
+    width: 100%;
+}
+
+
+/* mobile other */
+
+.preMobile {
+    background-color: #F2F5F7;
+}
+
+.preMobile_t {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preMobile img {
+    width: 100%;
+}
+
+
+/* adsadsads */
+
+.preAds {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+
+/* app ads */
+
+.preAds_app {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preAds_app_t {
+    margin: auto 5%;
+}
+
+.preAds_app video {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0.9px 3.5px rgba(0, 0, 0, 0.035), 0 7px 28px rgba(0, 0, 0, 0.07);
+}
+
+
+/* lollipop care app page */
+
+.preAppCare {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preAppCare img {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0.9px 3.5px rgba(0, 0, 0, 0.035), 0 7px 28px rgba(0, 0, 0, 0.07);
+}
+
+
+/* lollipop web banner */
+
+.preWeb_banner {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preWeb_banner video {
+    width: 100%;
+    box-shadow: 0 0.9px 3.5px rgba(0, 0, 0, 0.035), 0 7px 28px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+
+
+/* web care page  */
+
+.preWebCare {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.preWebCare img {
+    width: 100%;
+}
+
+
+/* ipad pad apd pad pad */
+
+@media only screen and (min-width:768px) {
+    /* banner banner */
+    .preBanner {
+        padding: 100px 45px;
+        background-size: 60%;
+        background-position: right center;
+    }
+    .preBanner_logo {
+        display: block;
+        margin: 0 0;
+        padding-bottom: 30px;
+    }
+    .preBanner_t {
+        width: 35%;
+        padding-top: 0px;
+        padding-left: 5%;
+        text-align: left;
+    }
+    .preBanner img {
+        position: relative;
+        top: 3px;
+        padding-right: 15px;
+    }
+    /* my role */
+    .preRole {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .preRole p {
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* care worth */
+    .preWorth {
+        padding: 50px 45px;
+    }
+    .preWorth_box {
+        display: flex;
+    }
+    .preWorth_box img {
+        width: 20%;
+    }
+    /* floe chaer */
+    .preFlow {
+        padding: 50px 45px;
+    }
+    .preFlow_t {
+        width: 40%;
+        margin: 0 auto;
+    }
+    /* wire wiore wire wire wire */
+    .pre_wire {
+        padding: 0px 45px 50px 45px;
+    }
+    .pre_wire_t {
+        text-align: right;
+        width: 30%;
+        margin-left: auto;
+        position: relative;
+        top: 80px;
+        padding-bottom: 0px;
+    }
+    /* mainm mian */
+    .preMain_t {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .preMain img {
+        width: 80%;
+    }
+    /* detail */
+    .preDetail {
+        padding: 100px 45px;
+        overflow: hidden;
+        display: flex;
+    }
+    .preDetail_t {
+        display: block;
+        float: left;
+        margin: auto 5%;
+        text-align: left;
+    }
+    .preDetail video {
+        width: 50%;
+    }
+    /* /* option option */
+    .preOption {
+        padding: 100px 45px;
+        display: block;
+        overflow: hidden;
+    }
+    .preOption_t {
+        width: 40%;
+        float: right;
+        padding: auto 5%;
+        text-align: left;
+    }
+    .preOption video {
+        width: 50%;
+        display: block;
+        float: left;
+    }
+    /* History */
+    .preHistory {
+        text-align: center;
+        padding: 50px 45px;
+    }
+    .preHistory img {
+        width: 60%;
+    }
+    /* fast sub */
+    .preSub {
+        padding: 50px 45px;
+        display: flex;
+    }
+    .preSub img {
+        width: 50%;
+    }
+    .preSub_t {
+        margin: auto 5%;
+        text-align: left;
+    }
+    /* p change sub */
+    .preChange {
+        padding: 50px 45px;
+        text-align: left;
+        overflow: hidden;
+    }
+    .preChange_t {
+        float: right;
+        display: block;
+        width: 40%;
+        margin-top: 10%;
+    }
+    .preChange img {
+        width: 50%;
+    }
+    /* cancel sub */
+    .preCancel1 {
+        padding: 50px 45px;
+    }
+    .preCancel1 p {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .preCancel1 img {
+        width: 70%;
+    }
+    /* cancel 2 */
+    .preCancel2 {
+        padding: 50px 0px 50px 45px;
+        text-align: left;
+        display: flex;
+    }
+    .preCancel2_t {
+        margin: auto 0;
+    }
+    .preCancel2 img {
+        width: 60%;
+        height: 60%;
+        margin: auto 0;
+    }
+    /* cancel3 */
+    .preCancel3 {
+        padding: 50px 45px 50px 0;
+        text-align: left;
+        overflow: hidden;
+    }
+    .preCancel3_t {
+        width: 40%;
+        float: right;
+        padding-top: 2vw;
+    }
+    .preCancel3 img {
+        width: 60%;
+        float: left;
+    }
+    /* cancel4 */
+    .preCancel4 {
+        padding: 50px 45px;
+    }
+    .preCancel4 img {
+        width: 70%;
+    }
+    /* mobile other */
+    .preMobile_t {
+        padding: 50px 45px;
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* ads ads ad s ads */
+    .preAds {
+        width: 60%;
+        margin: 0 auto;
+        padding: 50px 45px;
+        padding-top: 30vh;
+    }
+    .preAds p {
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* app ads */
+    .preAds_app {
+        padding: 50px 45px;
+        display: flex;
+        text-align: left;
+    }
+    .preAds_app_t {
+        margin: auto 0%;
+        padding-right: 10%;
+    }
+    .preAds_app video {
+        width: 50%;
+        border-radius: 20px;
+    }
+    /* lollipop care app page */
+    .preAppCare {
+        padding: 50px 45px;
+        text-align: left;
+        overflow: hidden;
+    }
+    .preAppCare_t {
+        width: 40%;
+        float: right;
+        padding-top: 40%;
+    }
+    .preAppCare img {
+        width: 50%;
+    }
+    /* lollipop web banner */
+    .preWeb_banner {
+        padding: 50px 45px;
+        text-align: center;
+    }
+    .preWeb_banner video {
+        width: 100%;
+        box-shadow: 0 0.9px 3.5px rgba(0, 0, 0, 0.035), 0 7px 28px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+    }
+    /* web care page  */
+    .preWebCare {
+        padding: 50px 45px;
+    }
+    /* ipad :end */
+}
+
+
+/* desk top */
+
+@media only screen and (min-width:1000px) {
+    .preRole,
+    .preWorth,
+    .preFlow,
+    .pre_wire,
+    .preMain,
+    .preDetail,
+    .preOption,
+    .preSub,
+    .preChange,
+    .preHistory,
+    .preCancel1,
+    .preCancel2,
+    .preCancel3,
+    .preCancel4,
+    .preAds_app,
+    .preAppCare,
+    .preWeb_banner,
+    .preWebCare {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .preCancel3_t {
+        width: 40%;
+        float: right;
+        padding-top: 7vw;
+    }
+}
