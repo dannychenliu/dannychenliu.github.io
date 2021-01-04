@@ -1,0 +1,165 @@
+body {
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li {
+    letter-spacing: .13em;
+    color: #222;
+    line-height: 1.4;
+}
+
+p,
+a,
+li {
+    color: #B2B2B2;
+}
+
+h2 {
+    padding-bottom: 35px;
+}
+
+header li a:hover {
+    color: #222;
+}
+
+.case_wrapper {
+    margin: 0 auto;
+    padding: 50px 25%;
+}
+
+.bg_wrapper {
+    margin: 0 auto;
+    padding: 50px 20%;
+}
+
+.pic_wrapper {
+    margin: 0 20%;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.hero img {
+    width: 100%;
+    background-color: #ccc;
+}
+
+.middle {
+    position: relative;
+    margin: auto 0;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.text_middle {
+    text-align: center;
+}
+
+.stats {
+    background-color: #f5f5f5;
+}
+
+.stats img {
+    border-radius: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 1.5px 3.9px rgba(0, 0, 0, 0.035), 0 12px 31px rgba(0, 0, 0, 0.07);
+}
+
+.stats p {
+    padding: 0 15px;
+}
+
+.case_strategy {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 1.5px 3.9px rgba(0, 0, 0, 0.035), 0 12px 31px rgba(0, 0, 0, 0.07);
+}
+
+.target_user {
+    margin-bottom: 30px;
+}
+
+.guideline img {
+    padding-bottom: 80px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.login {
+    background-color: #ECEEF2;
+    padding: 50px 50px;
+}
+
+.login_img {
+    background: url(../img/case/loginmock.gif) no-repeat;
+    background-size: 200px 433px;
+    width: 200px;
+    height: 433px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 6px solid #21222E;
+}
+
+.pic_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 50px;
+}
+
+.app_main {
+    background-color: #f5f5f5;
+    padding: 7% 13%;
+    margin-bottom: px;
+}
+
+.multi {
+    background-color: #8192A0;
+    padding: 7% 13%;
+}
+
+.app_sleep {
+    background-color: #8192A0;
+    padding: 7% 13%;
+    margin: 50px 0 0 0;
+}
+
+.app_userflow {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 50px;
+}
+
+@media (max-width:767px) {
+    .menu {
+        background-color: #eee
+    }
+}

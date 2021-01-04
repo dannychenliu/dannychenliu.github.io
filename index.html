@@ -1,163 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-tw">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Danny Liu's Portfolio</title>
-    <link rel="icon" href="/img/icn_logo_mobile.svg" type="image/ico">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:url" content="https://" />
+    <meta property="og:image" content="images/og-image.jpg" />
+
+    <title>Danny Liu, UIUX Designer</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <div class="headerWrap">
-        <div class="header">
-            <a href="/index">
-                <div class="logoWrap">
-                    <img class="logoMobile" src="/img/icn_logo_mobile.svg" alt="Danny Liu">
-                    <img class="logo" src="/img/icn_logo.svg" alt="Danny Liu">
-                </div>
-            </a>
-            <div class="more">
-                <div class="hamburger , hamburgerTop"></div>
-                <div class="hamburger , hamburgerMid"></div>
-                <div class="hamburger , hamburgerBottom"></div>
-            </div>
-
-            <ul>
-                <li><a href="work">Work</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="resume">Resume</a></li>
-            </ul>
+    <header>
+        <a href="/index.html">
+            <h3 class="p-4">Danny Liu </h3>
+        </a>
+        <div class="button_container">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
         </div>
-    </div>
+        <nav class="menu">
+            <ul class="">
+                <li><a href="index.html">Work</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="banner">
-        <div class="title">
-            <h1>
-                Hi, I'm Danny.
+    <div class="wrapper">
+        <div class="banner wow slideInRight faster">
+            <h1 class="">
+                Hi Hi,<br>我是 Danny Liu 🤣
             </h1>
-            <div class="decorLine"></div>
-        </div>
-
-        <p>
-            I'm a UI/UX designer, based in Taiwan, Taipei.<br>Current working at <span>Lollipop Baby Camera.</span>
-        </p>
-
-        <div class="workLink">
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/%E5%BD%A5%E8%BE%B0-%E5%8A%89-020977158/" class="linkedin"> </a>
-                </li>
-                <li>
-                    <a href="https://www.behance.net/DannyLiu0202" class="behance"> </a>
-                </li>
-                <li>
-                    <a href="https://www.cakeresume.com/dashboard?ref=navs_dashboard" class="cakeresume"> </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- projects -------projects----------projects------------------projects----------------projects-------------projects------------------>
-    <div class="caseWrap">
-
-        <h2>Projects</h2>
-        <div class="decorLine"></div>
-
-
-        <!-- app case is here   -->
-        <a href="/app">
-            <div class="app">
-                <img class="appPic" src="/img/pic_thumb_app.png" style="max-width: 100%;" alt="">
-
-
-                <div class="info , appInfo">
-                    <h3>
-                        Lollipop App
-                    </h3>
-                    <P>
-                        UI/UX application design
-                    </P>
-                    <a class="button" href="/app">View Case<img class="arrow" src="/img/icn_arrow.svg" alt=""></a>
-
-                </div>
-
+            <p>UIUX設計師，目前在
+                <a href="https://www.cathaylife.com.tw/cathaylife/" target="_blank"><span> 國泰人壽</span></a> 與
+                <a href="https://www.wistronits.com/tw/" target="blank"><span>緯創軟體</span></a> 任職
+            </p>
+            <div class="link">
+                <a href="https://www.linkedin.com/in/%E5%BD%A5%E8%BE%B0-%E5%8A%89-020977158/" target="_blank" class="linkedin"></a>
+                <a href="https://matters.news/@DannyLiu" target="_blank" class="matters"></a>
+                <a href="https://danny-liu.medium.com/" target="_blank" class="medium"></a>
+                <a href="https://www.behance.net/DannyLiu0202" target="_blank" class="behance"></a>
             </div>
-        </a>
+        </div>
 
-        <!-- premiere case is here -->
-        <a href="/premium">
-            <div class="premium">
-                <img class="premiumPic" src="/img/pic_thumb_premium.png" style="max-width: 100%;" alt="">
-
-                <div class="info">
-                    <h3>
-                        Lollipop Care Store
-                    </h3>
-                    <P>
-                        UI/UX web design
-                    </P>
-                    <a class="button" href="/premium">View case<img class="arrow" src="/img/icn_arrow.svg" alt="">
+        <!-- Work -->
+        <div class="work">
+            <div class="title wow fadeInUp">
+                <h4>Case Studies</h4>
+            </div>
+            <div class="container_projects">
+                <a href="cathay_walker.html" class="cathay_walker wow slideInUp">
+                    <img src="img/cathay.png" alt="">
+                    <h3>Cathay Walker Plus</h3>
+                    <p>UI/UX Web APP Design</p>
                 </a>
-                </div>
 
-            </div>
-        </a>
-
-        <!-- web  case is here -->
-        <a href="/webstore">
-            <div class="web">
-                <img class="webPic" src="/img/pic_thumb_lollipop_store.png" style="max-width: 100%;" alt="">
-
-                <div class="info">
-                    <h3>
-                        Lollipop Online Store
-                    </h3>
-                    <P>
-                        UI/UX web design
-                    </P>
-                    <a class="button" href="/webstore">View Case<img class="arrow" src="/img/icn_arrow.svg" alt="">
+                <a href="lollipop_app.html" class="lollipop_app wow slideInUp ">
+                    <img src="img/lollipop_app.png" alt="">
+                    <h3>Lollipop App</h3>
+                    <p>UI/UX Application Design asdf sdf sdfsdfsdfs dfsdfsdfsd fsdfsdfsdfsdfds</p>
                 </a>
-                </div>
 
+                <a href="premium.html" class="lollipop_care_store wow slideInUp">
+                    <img src="img/premium_store.png" alt="">
+                    <h3>Lollipop Care Store</h3>
+                    <p>UI/UX WebStore Design</p>
+                </a>
+
+                <a href="lollipopweb.html" class="lollipop_online wow slideInUp">
+                    <img src="img/lollipop_web.png" alt="">
+                    <h3>Lollipop Online Store</h3>
+                    <p>UI/UX Web Design</p>
+                </a>
             </div>
-        </a>
-    </div>
-
-
-    <!-- brief is here -->
-    <div class="brief">
-        <h2>More</h2>
-        <div class="decorLine"></div>
-        <p>
-            Know more about me in <a href="/about.html">About</a> or my <a href="/resume.html">Resume</a> here.
-        </p>
-
-    </div>
-    <!-- footer is here -->
-    <footer>
-        <div class="workLink">
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/%E5%BD%A5%E8%BE%B0-%E5%8A%89-020977158/" class="linkedin"> </a>
-                </li>
-                <li>
-                    <a href="https://www.behance.net/DannyLiu0202" class="behance"> </a>
-                </li>
-                <li>
-                    <a href="https://www.cakeresume.com/dashboard?ref=navs_dashboard" class="cakeresume"> </a>
-                </li>
-            </ul>
-            <h6>
-                &copy;Danny Liu
-            </h6>
         </div>
 
-    </footer>
-    <script src="/js/jquery-3.4.1.min.js"></script>
-    <script src="/js/web.js"></script>
+        <!-- blog -->
+        <div class="blog">
+            <div class="title wow fadeInUp faster">
+                <h4>Blogs</h4>
+                <p>閒閒沒事的設計師！🤣 <br> 用迷因寫寫生活與工作上學到的東西！👻
+                </p>
+            </div>
+            <div class="info ">
+                <a href="https://matters.news/@DannyLiu/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%88%91%E5%80%91%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%88%86%E5%BF%83-bafyreiai4vxe55oo3ayhi5ldlyjbnp75leki7vyffrkge5fpl3eppezvna" target="_blank" class="article wow fadeIn ">
+                    <div>
+                        <img src="img/blog/social.gif" alt="">
+                    </div>
+                    <div class="article_title">
+                        <h3>為什麼我們越來越分心 ？？</h3>
+                        <p>為什麼下班之後，生產力下降這麼多</p>
+                    </div>
+                </a>
+                <a href="https://matters.news/@DannyLiu/%E7%95%B6%E5%95%8F%E9%A1%8C%E7%99%BC%E7%94%9F%E4%BA%86-%E9%80%99%E9%9A%BB%E7%8C%B4%E5%AD%90%E5%8F%AF%E4%BB%A5%E5%B9%B9%E5%98%9B-bafyreibqcxmoyimy5yj5ybqfsfkwa6i7rmhaqyby3whvk7d7om4pmt5aya" target="_blank" class="article wow fadeIn ">
+                    <img src="img/blog/ytMonkey.png" alt="">
+                    <div class="article_title">
+                        <h3>當問題發生了，這隻猴子可以幹嘛？</h3>
+                        <p>以設計師角度，錯誤頁面應該要告知什麼？</p>
+                    </div>
+                </a>
+                <a href="https://matters.news/@DannyLiu/%E9%9B%BB%E5%95%86%E9%83%BD%E5%9C%A8%E6%8E%A7%E5%88%B6%E4%BD%A0%E6%B6%88%E8%B2%BB-bafyreih7jyidpzvswtgbridd7j3fo6bcrsp6ds56kbejl5cju36v6jemq4" target="_blank" class="article wow fadeIn  ">
+                    <img src="img/blog/vader.jpeg" alt="">
+                    <div class="article_title">
+                        <h3>電商都在控制你消費！！</h3>
+                        <p>破解網路商店的黑暗設計</p>
+                    </div>
+                </a>
+                <div class="see_more_btn">
+                    <a href="blog.html">查看更多</a><img src="img/icn_next.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <div class="contact wow fadeInUp faster ">
+            <div class="title">
+                <h4>Contact Me</h4>
+            </div>
+            <div class="contact_link">
+                <a href="mailto:dannyliu0202@gmail.com" class="btn">
+                    <h3>Email</h3>
+                </a>
+                <p>or</p>
+                <a href="https://www.linkedin.com/in/%E5%BD%A5%E8%BE%B0-%E5%8A%89-020977158/" target="_blank" class="btn">
+                    <h3>LinkedIn</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="goToTop">
+            <img src="img/goToTop.svg" alt="">
+        </div>
+
+        <footer>
+            <div class="link wow zoomIn faster ">
+                <a href="https://www.linkedin.com/in/%E5%BD%A5%E8%BE%B0-%E5%8A%89-020977158/" target="_blank" class="linkedin"></a>
+                <a href="https://matters.news/@DannyLiu" target="_blank" class="matters"></a>
+                <a href="https://danny-liu.medium.com/" target="_blank" class="medium"></a>
+                <a href="https://www.behance.net/DannyLiu0202" target="_blank" class="behance"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
